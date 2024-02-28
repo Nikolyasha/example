@@ -1,0 +1,32 @@
+.content{
+    height: fit-content;
+    /* padding: 25px; */
+    margin: 0 auto; 
+    position: relative;
+}
+  
+  
+.main_zone-container{
+    display: flex;
+    margin-top: 100px;
+}
+.canvas{
+    /* margin-bottom: 50px; */
+    /* border: 1px solid red; */
+    position:  relative;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* width: 100%; */
+    background: #fff;
+    /* box-shadow: 0px 4px 22.4px 14px rgba(0, 0, 0, 0.25); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.canvas-vertical{
+    width: 210mm; /* Ширина A4 в миллиметрах для вертикального формата */
+    height: 296.8mm;
+}
+  .canvas-horizontal{
+    width: 297mm; /* Ширина A4 в миллиметрах для горизонтального формата */
+    height: 210mm;
+}

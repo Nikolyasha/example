@@ -1,0 +1,48 @@
+@import url(styles/excel-menu.css);
+@import url(styles/cavas.css);
+@import url(styles/left-menu.css);
+@import url(styles/right-menu.css);
+@import url(styles/editor-elem.css);
+@import url(styles/top-menu.css);
+@import url(styles/elem-canvas.css);
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  width: 100%;
+  height: 100vh;
+
+}
+
+body{
+  /* border: 1px solid rgb(235, 55, 49); */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #bbbbbb;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  position: relative;
+}
+
+header{
+  width: 100%;
+ 
+}
+
+main{
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  /* border: 1px solid rgb(235, 55, 49); */
+  /* margin-bottom: 60px; */
+}
+
+.moveable-control{
+  user-select: none;
+}

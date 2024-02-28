@@ -1,0 +1,128 @@
+.dropdown_container{
+    display: none;
+    position: absolute;
+    z-index: 50;
+    /* border: 1px solid red; */
+    margin-left: -30px;
+    top: 100%;
+    left: 0;
+    transform: translateY(-20px);
+  }
+  
+  .dropdown_button{
+    display: flex;
+    width: fit-content ;
+  
+  }
+  .dropdown_button-img{
+    width: fit-content ;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 0px 4px 7px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  .dropdown_button img{
+    width: 20px;
+    height: auto;
+  }
+  .dropdown_menu{
+    margin-top: 7px;
+    display: flex;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 4px 7px 3px rgba(0, 0, 0, 0.10);
+    padding: 7px;
+    gap:7px;
+  
+  }
+  .dropdown_menu_wrapper{
+    display: none;
+  }
+  
+  .dropdown_menu button{
+    padding: 3px;
+    height: 25px;
+    width: 25px;
+    background: white;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown_menu button:hover{
+    background: rgb(190, 190, 190);
+  }
+  
+  .dropdown_menu .bold{
+    font-weight: 800;
+  }
+  .dropdown_menu .italic{
+    font-style:italic;
+  }
+  .dropdown_menu .underline{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .dropdown_menu input{
+    padding: 3px;
+    height: 25px;
+    width: 50px;
+  }
+  .color_picker_button{
+    width: 25px;
+    height: 25px;
+    border: 1px solid gray;
+    background: black;
+    cursor:pointer;
+    position: relative;
+  }
+  .color_picker_palette{ 
+    display: none; 
+    padding: 6px;
+    position: absolute;
+    top: 35px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 4px 7px 3px rgba(0, 0, 0, 0.10);
+  }
+  .color_picker_palette-wrapper{
+    display: flex;
+  }
+  .color_picker_palette-item{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    transition: all 0.1s ease;
+  }
+  .color_picker_palette-item:hover{
+    transform: scale(1.5);
+  }
+  .color_picker_palette-item:last-child{
+    margin: 0;
+  }
+  .last_column .color_picker_palette-item{
+    margin-right: 0;
+  }
+  
+  .color_picker_align{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .color_picker_align img{
+    height: 25px;
+    width: auto;
+  }
+  .color_picker_align-dropdown{
+    display: none;
+    position: absolute;
+    left: -6px;
+    top: 35px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 4px 7px 3px rgba(0, 0, 0, 0.10);
+  }
+  .align-dropdown-wrapper-item{
+    padding: 6px;
+  }
+  .align-dropdown-wrapper-item:hover{
+    background: rgb(190, 190, 190);
+    cursor: pointer;
+  }

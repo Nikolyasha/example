@@ -1,0 +1,50 @@
+.editor-container{
+    overflow-y: auto;
+    position: fixed;
+    right: 0;
+    z-index: 100;
+    width: 222px;
+    height: 100%;
+    padding: 15px;
+    background: #ffff;
+    box-shadow: -14px 0px 16.5px 8px rgba(0, 0, 0, 0.25);
+  
+  }
+  
+  .editor-container h3{
+    margin-bottom: 25px;
+    width: 100%;
+    text-align: center;
+  }
+  .editor-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .inputEditor{
+    padding: 7px 0px;
+    border: none;
+    background: #ebebeb;
+  }
+  .remove-button{
+    border: none;
+    background: rgb(230, 81, 81);
+    padding: 6px 0px;
+    cursor: pointer;
+  }
+  .save-button{
+    width: 100%;
+    border: none;
+    background: rgb(116, 185, 103);
+    padding: 6px 0px;
+    cursor: pointer;
+  }
+  
+  .editor-item input{
+    margin-bottom: 7px;
+  }
+  .error {
+    color: red;
+    font-size: 1.5rem;
+  }
+  

@@ -1,0 +1,36 @@
+footer{
+    /* padding: 30px 0; */
+    margin-top: 10px;
+    position: relative; 
+    width: 100%;
+    /* border: 1px solid red; */
+    background: white;
+    /* height: 500px; */
+    z-index: 50;
+    /* height: 100px; */
+}
+.menu-footer{
+    /* position: absolute; */
+    margin: 0 auto;
+    width: 20%;
+}
+.footer-wrapper{
+    /* display: none; */
+    width: 60%;
+    margin: 0 auto;
+}
+table{
+    margin-top: 24px;
+    /* border:1px solid gray; */
+    width: 100%;
+}
+th{
+    width: 50%;
+    background-color: rgb(185, 185, 185);
+}
+td{
+    text-align: center;
+    background: white;
+    border:1px solid rgb(255, 255, 255);
+    border: 1px solid gray;
+}
