@@ -40,8 +40,9 @@
              <span class="input__file-button-text">Фон сертификата</span>
           </label>
        </div>
-        <input type="button" class="buttonPdfDownload btn" value="Экспорт PDF">
-        <input type="button" class="buttonPdfView btn" value="Предпросмотр">
+        <input type="button" class="buttonPdfDownload btn" title="Экспорт в PDF">
+        <input type="button" class="buttonJpegDownload btn" title="Экспорт в JPEG">
+        <input type="button" class="buttonPdfView btn" title="Предпросмотр">
       </div>
 </header>
 
@@ -107,6 +108,8 @@
   <footer>
       <div class="menu-footer">
         <input type="file" name="" class="btn-excel" id="" accept=".xlsx, .xls">
+        <input type="button" value="Выгрузка по данным Excel" class="btn-export-Excel">
+        <button class="remText">sdsdsd</button>
       </div>
     <div class="footer-wrapper">
     <table id="data-table">
@@ -121,6 +124,7 @@
   <script src="js/variables.js"></script>
   <script src="js/add-moveable.js"></script>
   <script src="script.js"></script>
+  <script src="js/JsZip/dist/jszip.min.js"></script>
   <script src="js/pdfFormater.js"></script>
   <script src="js/screen-canvas.js"></script>
   <script src="js/drop-elem.js"></script>
@@ -129,7 +133,7 @@
 
   <script src="js/excel.js"></script>
   
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js" integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous"></script>
   <script src="https://daybrush.com/moveable/release/latest/dist/moveable.js"></script>
   <!-- for image -->

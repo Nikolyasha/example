@@ -23,8 +23,9 @@ function generateAndPreviewPDF() {
   }
   
   
-  //выгрузка pdf
+  // выгрузка pdf
   buttonPdfDownload.addEventListener("click",()=>{
+    window.scroll(0, 0);
   
     styleNone();
     const pdfConfig = {
@@ -46,7 +47,8 @@ function generateAndPreviewPDF() {
     },2000)
   });
   
-  
+
+
   buttonPdfView.addEventListener('click', ()=>{
     styleNone();
     generateAndPreviewPDF();

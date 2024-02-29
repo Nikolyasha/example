@@ -67,7 +67,8 @@ document.addEventListener("DOMContentLoaded", () => {
           toolDate.classList.add('tool-item-block');
     
         }else if(currentDragElem=="elemName"){
-          const el = document.createElement("div");  
+          const el = document.createElement("div");
+          el.classList.add("nameOfUser");  
           elemBuilder(el,offsetX,offsetY);
           canvas.appendChild(el);
           elemsOnCanvas=canvas.children;
